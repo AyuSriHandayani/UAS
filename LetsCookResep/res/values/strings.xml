@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LetsCookResep</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_jsonparser">JSONParser</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="title_activity_daftar">DaftarActivity</string>
+    <string name="title_activity_resep">ResepActivity</string>
+    <string name="title_activity_tambah">TambahActivity</string>
+    <string name="title_activity_postingan">PostinganActivity</string>
+    <string name="title_activity_list_resep">ListResepActivity</string>
+    <string name="title_activity_form__tambah">Form_TambahActivity</string>
+    <string name="title_activity_up_del">UpDelActivity</string>
+
+</resources>

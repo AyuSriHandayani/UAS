@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Form Tambah Resep"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/nama_lengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Nama Lengkap" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/judul_resep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/category"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Judul Resep" />
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/nama_lengkap"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Kategori" />
+
+    <EditText
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/judul_resep"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Deskripsi" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/deskripsi"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="16dp"
+        android:text="Simpan" />
+
+</RelativeLayout>

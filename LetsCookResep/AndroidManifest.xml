@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasi.letscookresep"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aplikasi.letscookresep.BerandaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.MainActivity"
+            android:label="@string/title_activity_beranda" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.DaftarActivity"
+            android:label="@string/title_activity_daftar" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.ResepActivity"
+            android:label="@string/title_activity_resep" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.TambahActivity"
+            android:label="@string/title_activity_tambah" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.PostinganActivity"
+            android:label="@string/title_activity_postingan" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.ListResepActivity"
+            android:label="@string/title_activity_list_resep" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.FormTambahActivity"
+            android:label="@string/title_activity_form__tambah" >
+        </activity>
+        <activity
+            android:name="com.aplikasi.letscookresep.UpDelActivity"
+            android:label="@string/title_activity_up_del" >
+        </activity>
+    </application>
+
+</manifest>
